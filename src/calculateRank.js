@@ -65,7 +65,7 @@ function calculateRank({
 
   let level = "";
 
-  if (normalizedScore < RANK_S_VALUE) {
+  if (normalizedScore >= -1) {
     level = "S+";
   }
   if (
